@@ -8,10 +8,12 @@ img {
 
         .base {
             position: absolute;
-            max-width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
         }
 
-        .overlay img {
+        .overlay {
             z-index: 1;
             position: absolute;
             max-width: 100%;
