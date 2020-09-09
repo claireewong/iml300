@@ -16,7 +16,8 @@ img {
         .overlay {
             z-index: 1;
             position: absolute;
-            margin-top: 5px;
-            margin-left: 5px;
+            width: auto;
+            margin-top: 0px;
+            margin-left: 0px;
 
         }
