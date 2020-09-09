@@ -11,7 +11,7 @@ img {
             max-width: 100%;
         }
 
-        .overlay {
+        .overlay img {
             z-index: 1;
             position: absolute;
             max-width: 100%;
