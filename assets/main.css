@@ -1,8 +1,6 @@
 img {
     max-width: 100%;
 }
-
-<style>
         .main {
             display: flex;
 
@@ -16,9 +14,8 @@ img {
         .overlay {
             z-index: 1;
             position: absolute;
-            width: 20%;
-            margin-top: 45%;
-            margin-left: 40%;
+            width: 4%;
+            margin-top: 15%;
+            margin-left: 10%;
 
         }
-    </style>
