@@ -11,13 +11,14 @@ img {
             top: 0;
             left: 0;
             z-index: 0;
+            max-width: 100%;
         }
 
         .overlay {
             z-index: 1;
             position: absolute;
-            width: auto;
-            margin-top: 0px;
-            margin-left: 0px;
+            max-width: auto;
+            margin-top: 10%;
+            margin-left: 10%;
 
         }
