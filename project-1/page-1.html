@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>title page</title>
-  </head>
-    <link rel="stylesheet" href="assets/main.css" type="text/css" />
-  <body>
-    <div class="main">
-        <img src="images/PROJECT%201-01.jpg" alt="home page" style="max-width: 100%;" class="base">
 
-        <a href="page-2.html"><img src="images/buttons-01.png" class="overlay" style="max-width: 100%;"></a>
-      </div>
-  </body>
+<head>
+    <title>title page</title>
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+</head>
+<body>
+     <style>
+        .main {
+            display: flex;
+
+        }
+
+        .base {
+            position: absolute;
+            max-width: 100%;
+        }
+
+        .overlay {
+            z-index: 1;
+            position: absolute;
+            width: 30%;
+            margin-top: 40%;
+            margin-left: 35%;
+        }
+    </style>
+    
+    <div class="main">
+        <img src="images/PROJECT%201-01.png" alt="home page" class="base" style="max-width: 100%;">
+
+        <a href="page-2.html"><img src="images/p-1-enter-button.png" class="overlay"></a>
+    </div>
+
+</body>
+
 </html>

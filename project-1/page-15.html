@@ -4,7 +4,30 @@
     <title>apartment</title>
   </head>
   <body>
-     <a href="page-16.html"><img 
-    src="images/PROJECT%201-15.jpg" alt="ring doorbell" style="max-width: 100%;" ></a>
+      <style>
+        .main {
+            display: flex;
+
+        }
+
+        .base {
+            position: absolute;
+            max-width: 100%;
+        }
+
+        .overlay {
+            z-index: 1;
+            position: absolute;
+            width: 2%;
+            margin-top: 29%;
+            margin-left: 76%;
+        }
+    </style>
+    
+    <div class="main">
+        <img src="images/PROJECT%201-15.png" alt="home page" class="base">
+
+        <a href="page-16.html"><img src="images/buttons-15.png" class="overlay"></a>
+      </div>
   </body>
 </html>

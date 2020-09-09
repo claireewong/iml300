@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>coming home</title>
+    <title>open door</title>
   </head>
   <body>
-     <a href="page-18.html"><img 
-    src="images/PROJECT%201-17.jpg" alt="character holding box" style="max-width: 100%;" ></a>
+      <style>
+        .main {
+            display: flex;
+
+        }
+
+        .base {
+            position: absolute;
+            max-width: 100%;
+        }
+
+        .overlay {
+            z-index: 1;
+            position: absolute;
+            width: 6%;
+            margin-top: 50%;
+            margin-left: 91.5%;
+        }
+    </style>
+    
+    <div class="main">
+        <img src="images/PROJECT%201-17.png" alt="home page" class="base">
+
+        <a href="page-18.html"><img src="images/buttons-03.png" class="overlay"></a>
+      </div>
   </body>
 </html>

@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>end page</title>
+    <title>open door</title>
   </head>
   <body>
-     <a href="page-1.html"><img 
-    src="images/PROJECT%201-19.jpg" alt="the end" style="max-width: 100%;" ></a>
+      <style>
+        .main {
+            display: flex;
+
+        }
+
+        .base {
+            position: absolute;
+            max-width: 100%;
+        }
+
+        .overlay {
+            z-index: 1;
+            position: absolute;
+            width: 30%;
+            margin-top: 41%;
+            margin-left: 35%;
+          }
+        .menu {
+            z-index: 1;
+            position: absolute;
+            width: 30%;
+            margin-top: 31%;
+            margin-left: 35%;
+        }
+    </style>
+    
+    <div class="main">
+        <img src="images/PROJECT%201-19.png" alt="home page" class="base">
+
+        <a href="page-2.html"><img src="images/buttons-16.png" class="overlay"></a>
+        
+        <a href="page-1.html"><img src="images/buttons-19.png" class="menu"></a>
+      </div>
   </body>
 </html>
