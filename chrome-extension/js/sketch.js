@@ -7,7 +7,7 @@ document.body.insertAdjacentHTML('afterbegin', '<div id="p5Canvas"></div>') //Em
 
 let img;
 function preload() {
-  img = loadImage('coffee_counter-01.png');
+  img = loadImage("icon/coffee_counter-01.png");
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
