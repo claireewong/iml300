@@ -1,6 +1,6 @@
 # Coffee Counter Chrome Extension
 
-Drink lots of coffee will you study? Use this Coffee Counter Chrome Extension to help you track your coffee intake as well as your water intake! 
+Drink lots of coffee while you study? Use this Coffee Counter Chrome Extension to help you track your coffee intake as well as your water intake! 
 
 Coffee Counter Chrome Extension was made with the intention to help keep you healthy while you study. It educates and trains you become more aware of your caffine intake and think about the impact of caffine. Coffee Counter can also act as a pattern dector to track your physical and mental states when consuming different amounts of caffine each day.
 
